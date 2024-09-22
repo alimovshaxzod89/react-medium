@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .story-draft {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ant-input, .ant-input-textarea {
+    box-shadow: none !important;
+    outline: none !important;
+    resize: none;
+  }
+  
+  .ant-layout-content {
+    min-height: calc(100vh - 64px);
+  }
+  
